@@ -32,16 +32,52 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    
+
     <!-- Using font Manrope -->
     <style>
-        body{
-            font-family: 'Manrope', sans-serif;
-        }
+      body {
+        font-family: "Manrope", sans-serif;
+      }
     </style>
   </head>
   <body>
-    <header></header>
+    <header class="mx-auto container">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div>
+            <img src="images/banner.png" class="max-w-sm rounded-lg" />
+            <div class="flex space-x-3 items-center badge bg-white w-1/2 h-auto rounded-md -mt-12 ml-8 z-50 relative shadow-2xl">
+              <div class="rating ">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+              </div>
+              <div>
+                <h1 class="text-xl font-extrabold">5.00</h1>
+                <p class="font-semibold">Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h1 class="text-7xl font-extrabold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="py-6 lg:w-3/4">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+            <button class="btn btn-primary bg-gradient-to-r from-[#FF8938] to-[#F00] text-white border-0">Explore More</button>
+          </div>
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
